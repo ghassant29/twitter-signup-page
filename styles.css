@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.flex-box{
+    display: flex;
+}
+.right-box{
+    padding-left: 50px;
+}
+   
+
+.bg-left{
+    width: 750px;
+    height:700px;
+
+}
+h1{
+    padding: 30px 0;
+    font-size: 63px;
+ 
+}
+
+dd{
+    font-size: 12px;
+    text-align: left;
+}
+.buttons{
+    padding: 10px 10px;
+}
+h2{
+    font-size: 35px;
+   
+}
+.twitter-icon{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+.signup{
+    background-color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    width:70%;
+  border: 0.1px solid gray;
+    padding: 10px ;
+    margin: 5px 0;
+  
+}
+.color{
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+}
+.button-icon{
+    width:15px;
+    height: 15px;
+    padding-right: 7px;
+}
+p{
+    
+    font-size: 20px;
+}
+footer{
+   margin: 20px 0;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+       
+}
+a{
+color: gray;
+padding: 0px 2px;
+}
+a:link{
+    text-decoration: none;
+}
+.term{
+    color: dodgerblue;
+}
+   .by-signup{
+font-size: 10px;
+color: gray;
+   }
+  
+   @media(max-width:1028px) {
+    .flex-box{
+        flex-direction: column;
+    }
+    .right-box{order:1;padding-left: 20px;}
+    .left-box{order:2;} 
+    .bg-left{width: 490px; height: auto;}
+    footer{order: 3;}
+    h1{font-size: 50px;}
+    h2{font-size:30px ;}
+    .signup{margin-bottom: 10px;}
+   }
